@@ -115,7 +115,7 @@ section {
 }
 .textDiv {
   color: #fff;
-  padding: 40px;
+  padding: 70px;
   border: 2px solid #fff;
 }
 
@@ -169,28 +169,32 @@ section {
 }
 
 /* ----------@media screen--------------------------------------------- */
-@media screen and (min-width: 390px) and (max-width: 900px) {
+@media screen and (min-width: 100px) and (max-width: 900px) {
   .Egyptian > h1 {
+    transform: translateY(30%);
     font-size: 50px;
-    line-height: 60px;
+    line-height: 70px;
+  }
+  .textDiv{
+    padding: 20px;
   }
 
   .btn-foter {
     margin: 0px 100px 50px 0;
-   
   }
   textarea {
     width: 250px !important;
     border-left: 1px solid #000;
   }
-  .divROW{
-    
-    margin-right: 50px;
+  .divROW {
+    margin-right: 20px !important;
   }
-  .social-icon {
 
-    padding: 70px !important; 
+  .social-icon {
+    padding: 70px !important;
     margin: 30px !important;
- 
+  }
+  header {
+    background-size: 100% 100%;
   }
 }
